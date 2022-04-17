@@ -1,0 +1,147 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+
+@font-face {
+    font-family: antebas;
+    src: url(fonts/antebas.otf);
+}
+@font-face {
+    font-family: ardela;
+    src: url(fonts/ardela.ttf);
+}
+
+.header{
+    width: 100%;
+    min-height: 100hv;
+    padding-top: 1%;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 10px;
+    border-color: black;
+}
+nav{
+    
+    flex: 1;
+    padding-left: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+nav ul li{
+list-style: none;
+display: inline;
+padding-inline: 12px;
+cursor: pointer;
+}
+
+
+.textbox{
+    margin-bottom: 5%;
+}
+
+.textbox h6{
+    font-family: ardela;
+    font-size: 600%;
+    padding-left: 4%;
+    font-weight: lighter;
+    line-height: 80%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+
+}
+.col-1{
+    flex-basis: 24%;
+    position: relative;
+    margin: 150px 5px 0px 800px;
+    padding-left: 12%;
+}
+
+.col-1 h2{
+    font-family: antebas;
+    font-size: 27px;
+}
+
+.col-1 h3{
+    font-size: 15px;
+    color: #4d4d4d;
+    font-weight: 200;
+    margin: 20px 0 10px;
+}
+
+
+.col-1 p{
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.col-1 h4{
+    margin: 30 px 0;;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.color-box{
+    position: absolute;
+    right:  37%;
+    top: 0;
+    background-color: rgb(255, 255, 16);
+    height: 68%;
+    width: 25%;
+    z-index: -1;
+}
+.color-box-2{
+    position: absolute;
+    left: 6%;
+    top: 15%;
+    background-color: palegreen;
+    height: 68%;
+    width: 100%;
+    z-index: -2;
+}
+.color-box-3{
+    position: absolute;
+    left: 6%;
+    top: 80%;
+    background-color: palegreen;
+    height: 28%;
+    width: 24%;
+    z-index: -3;
+}
+.profile{
+    position: absolute;
+    top: 7.2%;
+    right: 1%;
+    z-index: 0;    
+}
+
+.footer{
+    list-style: none;
+padding-top: px;
+padding-left: 25%;
+font-weight: 500;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline; 
+    
+    padding-inline: 70px;
+}
+a:link {
+    color: black;
+  }
+  
